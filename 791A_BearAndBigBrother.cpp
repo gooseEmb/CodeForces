@@ -11,6 +11,7 @@ int main(){
     cin >> a >> b;
     int year = 0;
     if(a<=b){
+//at this point if both are equals is necesary use <=
         while(a <= b){
             ++year;
             a = a*3;
@@ -19,6 +20,5 @@ int main(){
         }
     }
     cout << year;
-
     return 0;
 }
