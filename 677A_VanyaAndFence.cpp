@@ -10,14 +10,13 @@ int main(){
         cin >> height;
         if(height <= h){
             count++;
-        }else if(height > h){
+        }
+        else if(height > h){
             count = count + height/h;
             if(height%h != 0)
                 count++;
         }
     }
     cout << count;
-
-
     return 0;
 } 
