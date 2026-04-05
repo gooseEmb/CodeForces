@@ -1,14 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-    long long int n, sum=0;
+    long long int n;
     cin >> n;
-    for (int i = 1; i <= n; i++){
-        sum = (sum) + (pow(-1,i) * i);
+    if(n%2 != 0){
+        cout << -((n+1)/2); //(pow(-1,n)*(2*n+1)-1)/4;
     }
-    cout << sum;
+    else{
+        cout << n/2;
+    }
     return 0;
 }
