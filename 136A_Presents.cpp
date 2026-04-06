@@ -5,8 +5,8 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     int n, friends;
-    int  A1[n+1];
     cin >> n;
+    int  A1[n+1];
     for (int i = 1; i <= n; i++){
         cin >> friends;
         A1[friends] = i;
