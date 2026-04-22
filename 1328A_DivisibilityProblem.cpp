@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-    int t, count;
+    int t, count = 0;
     long int a , b;
     cin >> t;
     for (int i = 0; i < t; i++){
@@ -16,7 +16,5 @@ int main(){
         cout << count << endl;
         count =0;
     }
-
-    
     return 0;
 }
