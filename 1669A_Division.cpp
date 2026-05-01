@@ -17,6 +17,5 @@ int main(){
         if(rating <= 1399)
             cout << "Division 4" << endl;
     }
-
     return 0;
 }
